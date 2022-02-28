@@ -3,33 +3,35 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  
 })
 export class HomeComponent implements OnInit {
 
   products = [
     {
-      name: "Camiseta",
+      name: "Masajes Corporal",
       price: "$80.000",
+      
     },
     {
-      name: "Pantalon",
+      name: "Limpieza Facial",
       price: "$200.000"
     },
     {
-      name: "Pokedex",
+      name: "Tratamientos Celulitis",
       price: "$800.000"
     },
     {
-      name: "Bit-Vision",
+      name: "Manicure SPA",
       price: "$3.000.000"
     },
     {
-      name: "Portatil BitSus",
+      name: "Pedicure SPA",
       price: "$8.000.000"
     },
     {
-      name: "Celular BitSung",
+      name: "Areglo de novias",
       price: "$1.800.000"
     }
   ]
